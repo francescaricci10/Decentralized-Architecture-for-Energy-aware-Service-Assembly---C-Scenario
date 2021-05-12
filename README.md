@@ -19,8 +19,11 @@ and a "green" source, a renewable energy source. In particular, we suppose that 
 The file configs/mida-assembly-config.txt contains the configuration parameters for the simulation. The main parameters are:
 
 NETWORK_SIZE: The number of nodes in the network
+
 SERVICES_PER_NODE: The number of services hosted by each node
+
 TYPES: Number of types of services
+
 STRATEGY: The selection criteria that the nodes adopt. We implemented multiple strategies:
   1) random
   2) green learning
